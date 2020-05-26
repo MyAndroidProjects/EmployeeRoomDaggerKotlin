@@ -35,7 +35,7 @@ import kotlinx.android.parcel.Parcelize
  */
 @Entity(tableName = TABLE_EMPLOYEE)
 @Parcelize
-class Employee(
+data class Employee(
     @SerializedName("id")
     @PrimaryKey(autoGenerate = true)
     @ColumnInfo(name = COLUMN_EMPLOYEE_ID)

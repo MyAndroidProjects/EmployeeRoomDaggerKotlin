@@ -6,7 +6,7 @@ import kotlinx.android.parcel.Parcelize
 
 
 @Parcelize
-class EmployeeServer(
+data class EmployeeServer(
     @SerializedName("f_name")
     var fName: String = "",
     @SerializedName("l_name")

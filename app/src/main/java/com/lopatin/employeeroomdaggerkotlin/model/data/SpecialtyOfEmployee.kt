@@ -12,7 +12,7 @@ import kotlinx.android.parcel.Parcelize
 
 @Entity(tableName = TABLE_SPECIALTY_OF_EMPLOYEE)
 @Parcelize
-class SpecialtyOfEmployee(
+data class SpecialtyOfEmployee(
     @PrimaryKey(autoGenerate = true)
     @ColumnInfo(name = COLUMN_SPECIALTY_OF_EMPLOYEE_ID)
     var id: Long?=null,
